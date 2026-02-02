@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Blink & Back</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="toggles">
+      <label>
+        <input type="checkbox" id="eyeToggle" checked />
+        Eye Reminder
+      </label>
+
+      <label>
+        <input type="checkbox" id="postureToggle" checked />
+        Posture Reminder
+      </label>
+    </div>
+
+    <hr />
+
+    <h2 id="title"></h2>
+    <div id="content"></div>
+    <button id="snoozeBtn" style="display:none;">Snooze 5 min</button>
+    <button id="nextBtn"></button>
+
+  </div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

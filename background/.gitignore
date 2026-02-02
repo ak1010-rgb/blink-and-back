@@ -1,0 +1,8 @@
+# OS files
+.DS_Store
+
+# Zip builds
+*.zip
+
+# Optional (future-proof)
+node_modules

@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 240px;
+  background: #000;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.card {
+  background: #111;
+  height: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+
+.toggles {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.toggles label {
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #333;
+  margin: 10px 0;
+}
+
+h2 {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+}
+
+#content {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  background: #a855f7;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.learn-btn {
+  margin-top: 6px;
+  margin-bottom: 12px;
+  padding: 6px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background: #333;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#snoozeBtn {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  border: none;
+  background: #444;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
