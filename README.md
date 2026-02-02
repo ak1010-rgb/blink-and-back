@@ -20,6 +20,29 @@ Blink & Back is a Chrome Extension designed to encourage healthier screen habits
 
 ## 📂 Project Structure
 
+```text
+blink-and-back/
+├── manifest.json
+├── background/
+│   └── background.js
+├── popup/
+│   ├── popup.html
+│   ├── popup.css
+│   └── popup.js
+├── data/
+│   ├── eyeRules.js
+│   └── postureRules.js
+├── assets/
+│   └── icons/
+│       ├── icon16.png
+│       ├── icon48.png
+│       └── icon128.png
+├── utils/
+│   └── storage.js
+├── .gitignore
+└── README.md
+
+
 
 
 ## ⚙️ How It Works
